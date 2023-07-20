@@ -13,10 +13,21 @@
 /* ***************************************** TOP BLOCK ********************* */
 
 .top-block{
-  background-color: blueviolet;
+  background-color: black;
   height: 80px;
 }
 
+.top-block div{
+  align-items: center;
+  justify-content: end;
+}
+
+.top-block span{
+  background-color: #4a4a4a;
+  margin: 8px;
+  padding: 5px;
+  color: white;
+}
 
 /* ****************************************** MAIN ************************** */
 
