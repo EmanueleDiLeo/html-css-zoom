@@ -9,13 +9,6 @@
 .flex{
   display: flex;
 }
-
-.debug{
-  background-color: aquamarine;
-  border: 1px solid red;
-  height: 150px;
-  width: 250px;
-}
  
 /* ***************************************** TOP BLOCK ********************* */
 
@@ -31,20 +24,26 @@ main{
   background-color: black;
   flex-wrap: wrap;
   justify-content: center;
-  overflow-y: scroll;
+  align-content: flex-start;
+  overflow-y: auto;
   height: calc(100vh - 160px);
+  
 }
 
 .card{
+  border: 1px solid black;
   margin-bottom: 20px;
   margin-right: 5px;
+}
 
+.card img{
+  height: 150px;
+  width: 250px;
 }
 
 /* ***************************************** BOT BLOCK */
 
 .bot-block{
-  padding: 40px;
   background-color: cadetblue;
   height: 80px;
 }
