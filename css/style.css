@@ -10,6 +10,10 @@
   display: flex;
 }
  
+a{
+  text-decoration: none;
+}
+
 /* ***************************************** TOP BLOCK ********************* */
 
 .top-block{
@@ -67,8 +71,9 @@ main{
 
 /* ***************************************** BOT BLOCK */
 
+
 .bot-block{
-  background-color: cadetblue;
+  background-color: #222222;
   height: 80px;
   justify-content: space-between;
   align-items: center;
@@ -97,4 +102,19 @@ main{
 .setting div{
   flex-direction: column;
   align-items: center;
+}
+
+#share{
+  color:#4ac800;
+}
+
+.exit{
+  line-height: 80px;
+  background-color: #4a4a4a;
+  padding: 0 15px;
+
+}
+
+.exit a{
+  color:#d12d17;
 }
