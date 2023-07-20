@@ -6,3 +6,45 @@
   box-sizing: border-box;
 }
 
+.flex{
+  display: flex;
+}
+
+.debug{
+  background-color: aquamarine;
+  border: 1px solid red;
+  height: 150px;
+  width: 250px;
+}
+ 
+/* ***************************************** TOP BLOCK ********************* */
+
+.top-block{
+  background-color: blueviolet;
+  height: 80px;
+}
+
+
+/* ****************************************** MAIN ************************** */
+
+main{
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow-y: scroll;
+  height: calc(100vh - 160px);
+}
+
+.card{
+  margin-bottom: 20px;
+  margin-right: 5px;
+
+}
+
+/* ***************************************** BOT BLOCK */
+
+.bot-block{
+  padding: 40px;
+  background-color: cadetblue;
+  height: 80px;
+}
