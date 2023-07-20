@@ -45,6 +45,7 @@ main{
   border: 1px solid black;
   margin-bottom: 20px;
   margin-right: 5px;
+  position: relative;
 }
 
 .card img{
@@ -52,9 +53,48 @@ main{
   width: 250px;
 }
 
+.position{
+  bottom: 0;
+  left:0;
+  padding: 5px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.position span{
+  color: white;
+}
+
 /* ***************************************** BOT BLOCK */
 
 .bot-block{
   background-color: cadetblue;
   height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.bot-block span{
+  color: white;
+  font-size: 2rem;
+}
+
+.bot-block i {
+  color: white;
+}
+
+.setting div{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.setting{
+  justify-content: center;
+  align-items: center;
+}
+
+.setting div{
+  flex-direction: column;
+  align-items: center;
 }
