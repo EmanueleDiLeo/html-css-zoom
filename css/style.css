@@ -81,7 +81,7 @@ main{
 .bot-block span{
   color: white;
   font-size: 2rem;
-  margin-top: 5px;
+  padding-top: 5px;
 }
 
 .bot-block i {
@@ -111,18 +111,15 @@ main{
 }
 
 .exit{
-  display: block;
   line-height: 80px;
   background-color: #4a4a4a;
   min-width: 140px;
 
 }
 
-.exit span{
-  width: 100%;
+.exit p{
   font-size: 1.2rem;
   text-align: center;
-  padding-left:20px;
   color:#d12d17;
   
 }
